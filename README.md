@@ -1,5 +1,8 @@
 # GoldKAT (Kali Ansible TF)
-Terraform Packer template for creating and configuring a golden Kali Linux Amazon Machine Image (AMI) in AWS
+This project automates the creation of a hardened, ready-to-deploy Kali Linux Amazon Machine Image (AMI) — your "golden image" for red team operations or secure penetration testing in AWS.
+Using Packer for image builds, Ansible for configuration, and Terraform for deployment, it delivers a repeatable, infrastructure-as-code workflow to spin up production-ready Kali instances with zero manual steps.
+
+Whether you're launching a lab environment or scaling offensive security operations in the cloud, this repo gives you a powerful, fully-automated pipeline from bare base to battle-tested box.
 
 ## Creating an AWS EC2 Instance with Packer and Terraform
 
